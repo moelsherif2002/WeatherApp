@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- fontawesom -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg py-4">
+        <div class="container">
+            <div class="logo d-flex">
+                <div class="logo-img">
+                    <img class="w-100" src="imgs/logo@2x.png">
+                </div>
+                <div class="text-white mx-3 logo-cap">
+                    <h4>Weather</h4>
+                    <span>tagline goes here</span>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link rounded-5 px-4 text-white active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link rounded-5 px-4 text-white" href="#">News</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link rounded-5 px-4 text-white" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link rounded-5 px-4 text-white" href="#">Photots</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link rounded-5 px-4 text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- find location section -->
+    <section class="location">
+        <div class="container py-5">
+            <div class="w-75 m-auto position-relative">
+                <input type="text" class="form-control rounded-5 py-3 find-location"
+                    placeholder="Find your location...">
+                <span class="rounded-5">Find</span>
+            </div>
+        </div>
+    </section>
+    <!-- weather degrees section -->
+    <section class="weather-degrees py-5">
+        <div class="container">
+            <div class="row">
+                <div style="background-color: #323544; border-top-left-radius: 10%; border-bottom-left-radius: 10%;"
+                    class="col-md-4">
+                    <div class="day1">
+
+                    </div>
+                </div>
+                <div style="background-color: #272936;" class="col-md-4">
+                    <div class="day2"></div>
+                </div>
+                <div style="background-color: #323544; border-top-right-radius: 10%; border-bottom-right-radius: 10%;"
+                    class="col-md-4">
+                    <div class="day3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="position-relative">
+                        <input type="text" class="form-control py-3 rounded-5"
+                            placeholder="Enter your email to subscribe...">
+                        <span class="rounded-5">Subscribe</span>
+                    </div>
+                </div>
+                <div class="col-md-3 offset-1 my-2">
+                    <div class="social-links d-flex">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <p class="my-3 text-white">
+                        Copyright 2014 Company name. Designed by Themezy. All rights reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- bootstrap script -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- main script -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

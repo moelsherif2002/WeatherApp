@@ -1,0 +1,124 @@
+/* navbar style */
+nav {
+    background-color: #1E202B;
+}
+
+.logo {
+    width: fit-content;
+}
+
+.logo-img {
+    width: 90px;
+}
+
+.logo-cap span {
+    color: #bfc1c8;
+    font-size: 12px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    border: 1px solid transparent;
+    transition: 0.4s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #009ad8 !important;
+    border: 1px solid #009ad8;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #009ad8 !important;
+    border: 1px solid #009ad8;
+}
+
+/* location style */
+.location {
+    height: 400px;
+    background-image: url(../imgs/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.find-location {
+    background-color: #1E202B;
+    border: none;
+    color: white !important;
+}
+
+.location span {
+    color: white;
+    background-color: #009ad8;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-location:focus {
+    background-color: #1E202B;
+    box-shadow: none;
+    border: none;
+}
+
+.find-location::placeholder {
+    color: grey;
+}
+
+/* weather degrees style */
+.weather-degrees {
+    background-color: #1E202B;
+}
+
+/* footer style */
+footer {
+    background-color: #272936;
+}
+
+footer input {
+    background-color: #1E202B !important;
+    border: none !important;
+    color: white !important;
+}
+
+footer input:focus {
+    background-color: #1E202B !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: grey !important;
+}
+
+footer span {
+    color: white;
+    background-color: #009ad8;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a {
+    color: #009ad8;
+    font-size: 20px !important;
+    background-color: #1E202B;
+    padding: 8px;
+    border-radius: 50%;
+    transition: 0.4s;
+    margin: 0px 3px;
+}
+
+.social-links a:hover {
+    background-color: #009ad8;
+    color: white;
+}
